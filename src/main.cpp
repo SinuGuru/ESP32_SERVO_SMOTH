@@ -35,7 +35,7 @@ void loop() {
   Serial.println(valSmoth);
  
 
-  valSmoth=map(valSmoth,0,100,0,180);
+  valSmoth=map(valSmoth,0,100,40,110);
 
   myServo.write(valSmoth);
 
